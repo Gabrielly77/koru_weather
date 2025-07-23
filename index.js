@@ -1,1 +1,1 @@
-//
+import {getfirst} from '.solution.js'//
