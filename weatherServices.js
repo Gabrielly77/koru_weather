@@ -7,7 +7,7 @@ function simulateWeatherService(name, delay, shouldFail = false) {
           reject(new Error(`${name} falhou`));
         } else {
           const temp = Math.floor(Math.random() * 15) + 20; // 20°C a 34°C
-          console.log(`${name} respondeu: ${temp}°C`);
+          // console.log(`${name} respondeu: ${temp}°C`);
           resolve(temp);
         }
       }, delay);
